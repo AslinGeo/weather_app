@@ -36,6 +36,7 @@ class HomeView extends GetResponsiveView<HomeController> {
                   height: 38,
                 ),
                 weather(),
+                const Spacer(),
                 bottom()
               ],
             ),
